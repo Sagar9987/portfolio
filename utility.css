@@ -1,0 +1,65 @@
+h1{
+    color: var(--green);
+    font-family: var(--ff);
+    font-size: clamp(30px,5vw,32px);
+    font-weight: 600;
+}
+
+h2{
+    color: black;
+    font-family: var(--ff);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+section{
+    max-width: 1400px;
+    padding: 50px 50px;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+.btn{
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    background: var(--yellow);
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.divider{
+    width: 80px;
+    height:2px;
+    background: var(--yellow);
+    margin: auto;
+    
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+@media(max-width:620px){
+    section {
+        max-width: 1400px;
+        padding: 20px;
+    }
+}
